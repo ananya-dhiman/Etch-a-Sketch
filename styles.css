@@ -1,20 +1,25 @@
 .square{
-    background-color: aqua;
+    background-color: white;
  
     border:1px solid black;
     box-sizing: border-box; 
-    margin: 0px;
+    margin: 0px 0px;
+   
 
 
 }
 
 .container{
     width: 960px;
-    height:960px;
-    border:5px solid black;
- 
+    height:auto;
+    border: 50px solid orange;
+    border-radius: 50px;
     display: flex;
     flex-wrap: wrap;
+    flex:1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
     margin: 100px auto; 
     padding:0px;
 }
